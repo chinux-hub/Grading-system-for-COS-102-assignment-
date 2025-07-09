@@ -10,6 +10,6 @@ START
     PRINT "Grade: D"
   ELSE IF score >= 40 AND score <= 44 THEN
     PRINT "Grade: E"
-  ELSE
+  ELSE IF score <40 THEN 
     PRINT "Grade: F"
 END
